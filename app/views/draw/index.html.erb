@@ -1,0 +1,12 @@
+<body onLoad="init()">
+<nav id="navbar">
+	<ul>
+		<li><a href="http://www.oneearthpeople.com/Graham">Back to G-Team</a></li> 
+		<!-- http://www.g-team.mobi/ -->
+		| <li id="status">Start drawing!!</li>
+	</ul>
+</nav>
+<a id="pid"><%= params[:id] %></a>
+<br>
+<canvas width="1024px" height="1024px" style="background-image:url(<%= asset_path 'tile' + params[:id] + '.png' %>)" id="canvas" onMouseDown="mouseDown()" onMouseMove="mouseMove()" onMouseUp="mouseUp()"></canvas>
+</body>

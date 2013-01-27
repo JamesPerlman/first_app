@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container { 
+	width:auto;
+	height:auto;
+	border-radius:10px;
+	box-shadow:0 0 10px black;
+}
+
+
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#navbar {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#navbar ul li {
+	display:inline;
+}
+
+#canvas { 
+	cursor:crosshair; 
+	position:absolute;
+	top:44px;
+	left:0px;
+	border:solid thin black;
+}
+
+#pid {
+	display:none;
+	visibility:hidden;
+}
